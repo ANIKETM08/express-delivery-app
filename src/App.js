@@ -19,7 +19,7 @@ import Error from "./components/Error";
 import Search from "./components/Search";
 
 function App() {
-  axios.defaults.baseURL = "https://express-delivery-app.onrender.com";
+  axios.defaults.baseURL = "https://express-delivery-app-api.onrender.com/";
   axios.defaults.withCredentials = true;
 
   return (
